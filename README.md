@@ -8,7 +8,7 @@ where:
 - <_GBHRB> is the global branch history register bits used in the index of the gshare table (traditionally labelled 'N')
 - <Trace_File> is the full path of the trace file
 
-The trace file contains lines of information in two parts. Part one of each line is a hexadecimal address, followed by part two, a character, 't' or 'n', which designates whether the branch was actually taken or not taken, respectively. An example couple of lines:
+The trace file contains lines of information in two parts. Part one of each line is a hexadecimal address, followed by part two, a lower-case character, 't' or 'n', which designates whether the branch was actually taken or not taken, respectively. An example couple of lines:
 
   00A4C6FB t
 
