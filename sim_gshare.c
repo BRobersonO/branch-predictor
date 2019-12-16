@@ -93,28 +93,3 @@ int main(int argc, char *argv[])
     printf("Misprediction Ratio: %1.6f\n", ((double) misses/(double)(misses+hits)));
     return 0;
 }
-/*
-Validation Runs:
-
-1- Configuration A: M=8, N=5
-
-MCF: misprediction rate =7.48%
-
-GoBMK: misprediction rate =0.51%
-
- 
-
-2- Configuration B: M=4, N=2
-
-MCF: misprediction rate =26.86%
-
-GoBMK: misprediction rate=0.87%
-
- 
-
-3- Configuration C: M=3, N=1
-
-MCF: misprediction rate=29.07%
-
-GoBMK: misprediction rate=0.88%
-*/
